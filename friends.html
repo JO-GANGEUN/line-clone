@@ -13,12 +13,15 @@
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span class="material-icons"> alarm <span>13:54</span> </span>
+            <span class="status-bar__font">13:54</span>
+        </div>
+        <div class="status-bar__column">
+            <span class="material-icons"> alarm  </span>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level status-bar__font">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
-        <div class="status-bar__column"></div>
     </div>
 
     <header class="header">
@@ -27,18 +30,24 @@
         </div>
         <div class="header__header-column">
             <span class="header__icon"> <i class="fas fa-search"></i></span>
-            <span class="header__icon"><i class="fas fa-cog"></i> </span>
+            <span class="header__icon">
+                <a href="settings.html">
+                <i class="fas fa-cog"></i> 
+                </a>
+            </span>
         </div>
     </header>
 
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg"> <img src="images/brown.png" alt="" class="g-avatar friends__brown">
-                <div class="friend__content">
-                    <span class="friend__name">BROWN</span>
-                    <span class="friend__status">카톡을 재패하겠다</span>
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="images/brown.png" alt="" class="g-avatar friend__brown">
+                    <div class="friend__content">
+                        <span class="friend__name">BROWN</span>
+                        <span class="friend__status">카톡을 재패하겠다</span>
+                    </div>
                 </div>
-
             </div>
         </header>
         <!-- plus friend -->
@@ -46,7 +55,7 @@
             <h5 class="friends__plus-title">Plus Friend</h5>
             <ui class="friends__list">
                 <li class="friends__friend friend friend--lg">
-                    <img src="images/brown.png" alt="" class="g-avatar friends__brown">
+                    <img src="images/brown.png" alt="" class="friend__brown">
                     <div class="friend__content">
                         <span class="friend__name">BROWN</span>
                     </div>
@@ -60,7 +69,7 @@
             <h5 class="friends__title">Friends 14</h5>
             <li class="friends__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/brown.png" alt="" class="g-avatar friends__brown">
+                    <img src="images/brown.png" alt="" class="friend__brown">
                     <div class="friend__content">
                         <span class="friend__name">BROWN</span>
                         <span class="friend__status">카톡을 재패하겠다</span>

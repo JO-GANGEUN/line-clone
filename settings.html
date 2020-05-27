@@ -13,17 +13,20 @@
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span class="material-icons"> alarm <span>13:54</span> </span>
+            <span class="status-bar__font">13:54</span>
+        </div>
+        <div class="status-bar__column">
+            <span class="material-icons"> alarm  </span>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level status-bar__font">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
-        <div class="status-bar__column"></div>
     </div>
 
     <header class="header">
         <div class="header__header-column">
-            <a href="more.html">
+            <a href="javascript:history.go(-1)" class="header__back-btn">
                 <i class="fas fa-arrow-left fa-2x"></i>
             </a>
             <hi class="header__title">Settings</hi>
@@ -36,6 +39,22 @@
 
     <main class="settings">
         <ul class="settings__list">
+            <section class="settings__sections">
+                <li class="settings__setting">
+                    <span class="settings_icon"><i class="fas fa-lock"></i></span>
+                    <span class="settings__title">Privacy</span>
+                </li>
+                <li class="settings__setting">
+                    <span class="settings_icon"><i class="far fa-bell"></i></span>
+                    <span class="settings__title">Notification</span>
+                </li>
+                <li class="settings__setting">
+                    <span class="settings_icon"><i class="far fa-user"></i></span>
+                    <span class="settings__title">Friends</span>
+                </li>
+            </section>
+
+
             <section class="settings__sections">
                 <li class="settings__setting">
                     <span class="settings_icon"><i class="fas fa-lock"></i></span>
